@@ -20,7 +20,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Auth from "./pages/Auth";
 import ARImageRecognition from "./pages/ARImageRecognition";
-import Dashboard from "./pages/admin/Dashboard";
 import ManageBookings from "./pages/admin/ManageBookings";
 import ManageTours from "./pages/admin/ManageTours";
 import ManageReviews from "./pages/admin/ManageReviews";
@@ -30,6 +29,7 @@ import UserAccount from "./pages/UserAccount";
 import NotFound from "./pages/NotFound";
 import PolicyPage from "./pages/PolicyPage";
 import ManagePolicies from "./pages/admin/ManagePolicies"; // Import the new admin page
+import Dashboard from "./pages/admin/Dashboard";
 
 const queryClient = new QueryClient();
 
